@@ -1,0 +1,23 @@
+Info:
+[1] proj-1.c is the source code for qsn1
+[2] proj-1.cpp is the source code for qsn2. We used c++ 
+    for question2 because c++ has a builtin uniform 
+    distribution generator.
+[3] input.txt containes taskset data for qsn1
+
+Execution procedure:
+[1] make all  - compiles for qsn1 and qsn2 and generates qsn1.o and qsn2.o
+[2] make qsn1 - compiles for qsn1 only and generates qsn1.o
+[3] make qsn2 - compiles for qsn2 only and generates qsn2.0
+[4] make run  - executes both qsn1.o and qsn2.o
+[5] make run1 - executes qsn1.o only
+    ./qsn1.0 input.txt
+[6] make run2 - executes qsn2.o only
+    ./qsn2.0 0.5 e
+    First argument(0.5)represents utilization
+    Second argument(e) represnets the scheduling procedure
+       [a] e for edf
+       [b] r for rms
+       [c] d for dms
+
+-----
